@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T04:05:00.507Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="L1WOSXfBLzkQ_nuScYu7" version="21.2.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-05-02T04:32:24.932Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="QiyKRYZLzi8mKmRx3UQu" version="21.2.3" type="github" pages="2">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="3774" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -280,47 +280,98 @@
         <mxCell id="oKAiqhrlMQ-mr1V65dIV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-1" target="oKAiqhrlMQ-mr1V65dIV-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-1" value="Restore Player State" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="oKAiqhrlMQ-mr1V65dIV-1" value="Game Initialize" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-2" target="oKAiqhrlMQ-mr1V65dIV-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oKAiqhrlMQ-mr1V65dIV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-2" target="HeOzGKQCSo2EseHtXA-t-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-2" value="check local storage for previous player info" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-13" value="Create User" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oKAiqhrlMQ-mr1V65dIV-7">
+          <mxGeometry x="0.2857" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-2" value="Log In" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-2" target="HeOzGKQCSo2EseHtXA-t-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-11" value="Anonymous" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-2" target="HeOzGKQCSo2EseHtXA-t-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oKAiqhrlMQ-mr1V65dIV-2" value="present login dialog" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-4" target="oKAiqhrlMQ-mr1V65dIV-2">
+        <mxCell id="oKAiqhrlMQ-mr1V65dIV-10" value="&lt;h1&gt;First time load&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- No previous session on this browser.&lt;/p&gt;&lt;div&gt;- provide login UI with 3 options:&lt;/div&gt;&lt;div&gt;- Log In&lt;/div&gt;&lt;div&gt;- Create User&lt;/div&gt;&lt;div&gt;- Anonymous - will assign to user a single random wild island.&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" width="320" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oKAiqhrlMQ-mr1V65dIV-11" value="&lt;h1&gt;Second time load&lt;br&gt;&lt;/h1&gt;- no different than first time load" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-9" value="login flow" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-10" value="create user flow" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeOzGKQCSo2EseHtXA-t-12" target="HeOzGKQCSo2EseHtXA-t-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-4" value="local storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="90" y="150" width="60" height="80" as="geometry" />
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-12" value="launch Anonymous flow" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-9" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-6" target="oKAiqhrlMQ-mr1V65dIV-8">
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-21" value="assign random island to Anonymous user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="HeOzGKQCSo2EseHtXA-t-14" target="HeOzGKQCSo2EseHtXA-t-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-13" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-6" target="oKAiqhrlMQ-mr1V65dIV-12">
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeOzGKQCSo2EseHtXA-t-14" target="HeOzGKQCSo2EseHtXA-t-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-6" value="is there a guest user?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="290" width="80" height="80" as="geometry" />
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-14" value="Ask Server for a randomly assigned wild island" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-8" value="login as guest user" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="400" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-10" value="&lt;h1&gt;First time load&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- No previous session on this browser.&lt;/p&gt;&lt;p&gt;- launch user UI into guest mode.&lt;/p&gt;&lt;p&gt;- provide option to sign in as user as persistent icon on screen. &lt;br&gt;&lt;/p&gt;&lt;p&gt;- provide option to convert guest id into player id. &lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" width="320" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-11" value="&lt;h1&gt;Second time load&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- There was a previous session.&lt;br&gt;&lt;/p&gt;&lt;p&gt;- launch user UI into existing guest mode.&lt;/p&gt;&lt;p&gt;- provide option to sign in as user. &lt;br&gt;&lt;/p&gt;&lt;p&gt;- provide option to convert guest id into player id. &lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="200" width="320" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-12" target="oKAiqhrlMQ-mr1V65dIV-8">
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HeOzGKQCSo2EseHtXA-t-17" target="HeOzGKQCSo2EseHtXA-t-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="oKAiqhrlMQ-mr1V65dIV-12" target="oKAiqhrlMQ-mr1V65dIV-4">
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-28" value="sea storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HeOzGKQCSo2EseHtXA-t-19">
+          <mxGeometry x="-0.1667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-17" value="local storage" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="655" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-18" value="session storage" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="590" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-22" value="Server" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="930" y="40" width="520" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-20" value="look up a random island for player." style="whiteSpace=wrap;html=1;" vertex="1" parent="HeOzGKQCSo2EseHtXA-t-22">
+          <mxGeometry x="80" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-25" value="Ask server for sea content" style="whiteSpace=wrap;html=1;" vertex="1" parent="HeOzGKQCSo2EseHtXA-t-22">
+          <mxGeometry x="70" y="615" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeOzGKQCSo2EseHtXA-t-23" target="HeOzGKQCSo2EseHtXA-t-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oKAiqhrlMQ-mr1V65dIV-12" value="create a guest user" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="300" width="120" height="60" as="geometry" />
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-27" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HeOzGKQCSo2EseHtXA-t-26">
+          <mxGeometry x="-0.2103" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HeOzGKQCSo2EseHtXA-t-23" target="HeOzGKQCSo2EseHtXA-t-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-23" value="Check if sea &lt;br&gt;island is in is already&lt;br&gt; loaded" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="630" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HeOzGKQCSo2EseHtXA-t-29" value="Render map with sea details." style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="845" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
