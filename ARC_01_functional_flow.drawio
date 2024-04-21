@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T03:51:09.243Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0" etag="wJq0XE2b0iOgwFkEit83" version="21.3.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-21T21:33:27.736Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="_dKjk9w_12phmRlybcPx" version="24.0.5" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="meepleseas">
-    <mxGraphModel dx="4103" dy="1305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3058" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,11 +269,14 @@
             <mxPoint x="760" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="ugS87ODhd4cbmerjUWzV-1" value="" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="490" width="220" height="220" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="GDtZ0hUACIS2tB0HcEG2" name="Restore player state">
-    <mxGraphModel dx="2840" dy="2642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1562" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -377,124 +380,137 @@
     </mxGraphModel>
   </diagram>
   <diagram id="9sLPQBVYEF2RoOAMo3u-" name="Display A Sea">
-    <mxGraphModel dx="2412" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3262" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-1" value="Server" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-1" value="Server" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="120" width="940" height="840" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-16" target="2yll_2NZHZM8mv4KPFdO-18">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-16" target="2yll_2NZHZM8mv4KPFdO-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-16" value="REST:getSeaMap" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-16" value="REST:getSeaMap" style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="70" y="165" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-18" target="2yll_2NZHZM8mv4KPFdO-22">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-18" target="2yll_2NZHZM8mv4KPFdO-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-18" value="Look Up Sea in registry" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-18" value="Look Up Sea in registry" style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="270" y="165" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-20" target="2yll_2NZHZM8mv4KPFdO-18">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-20" target="2yll_2NZHZM8mv4KPFdO-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-20" value="Sea Registry" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-20" value="Sea Registry" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="480" y="155" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-25" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-22" target="2yll_2NZHZM8mv4KPFdO-24">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-25" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-22" target="2yll_2NZHZM8mv4KPFdO-24" edge="1">
           <mxGeometry x="-0.8298" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-29" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-22" target="2yll_2NZHZM8mv4KPFdO-28">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-29" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-22" target="2yll_2NZHZM8mv4KPFdO-28" edge="1">
           <mxGeometry x="-0.6923" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-22" value="Sea &lt;br&gt;Exists?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-22" value="Sea &lt;br&gt;Exists?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="290" y="295" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-24" value="Load data from Seas table" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-24" value="Load data from Seas table" style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="50" y="450" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-26" target="2yll_2NZHZM8mv4KPFdO-24">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-26" target="2yll_2NZHZM8mv4KPFdO-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-26" value="Seas (Islands)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-26" value="Seas (Islands)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="720" y="440" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-28" target="2yll_2NZHZM8mv4KPFdO-34">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-28" target="2yll_2NZHZM8mv4KPFdO-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-36" value="Identify Sea as &#39;in progress&#39;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-28" target="2yll_2NZHZM8mv4KPFdO-20">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-36" value="Identify Sea as &#39;in progress&#39;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-28" target="2yll_2NZHZM8mv4KPFdO-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-28" value="Generate Sea (Islands)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-28" value="Generate Sea (Islands)" style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="500" y="316.25" width="120" height="37.5" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-30" value="store to seas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-34" target="2yll_2NZHZM8mv4KPFdO-26">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-30" value="store to seas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-34" target="2yll_2NZHZM8mv4KPFdO-26" edge="1">
           <mxGeometry x="-0.6154" relative="1" as="geometry">
             <mxPoint x="670" y="370" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-32" target="2yll_2NZHZM8mv4KPFdO-28">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="2yll_2NZHZM8mv4KPFdO-1" source="2yll_2NZHZM8mv4KPFdO-32" target="2yll_2NZHZM8mv4KPFdO-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-32" value="World Config&lt;br&gt;- sea density" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;verticalAlign=top;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-32" value="World Config&lt;br&gt;- sea density" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;verticalAlign=top;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="740" y="295" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-34" value="Save Seas to table" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-34" value="Save Seas to table" style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="500" y="395" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-37" value="&lt;h1&gt;Seas and Islands&lt;br&gt;&lt;/h1&gt;&lt;p&gt;By using a document based database engine, we can use documents to identify &#39;seas&#39;, and the contents of the documents to identify &#39;islands&#39;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-1">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-37" value="&lt;h1&gt;Seas and Islands&lt;br&gt;&lt;/h1&gt;&lt;p&gt;By using a document based database engine, we can use documents to identify &#39;seas&#39;, and the contents of the documents to identify &#39;islands&#39;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="2yll_2NZHZM8mv4KPFdO-1" vertex="1">
           <mxGeometry x="710" y="30" width="225" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-2" value="Browser" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="40" width="860" height="850" as="geometry" />
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-2" value="Browser" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-760" y="40" width="860" height="850" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-2" source="2yll_2NZHZM8mv4KPFdO-4" target="2yll_2NZHZM8mv4KPFdO-5">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-2" source="2yll_2NZHZM8mv4KPFdO-4" target="2yll_2NZHZM8mv4KPFdO-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-12" value="Use Sea Identtifier" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2yll_2NZHZM8mv4KPFdO-6">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-12" value="Use Sea Identtifier" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2yll_2NZHZM8mv4KPFdO-6" vertex="1" connectable="0">
           <mxGeometry x="-0.3321" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-4" value="Need to Display Sea on screen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-2">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-4" value="Need to Display Sea on screen" style="rounded=1;whiteSpace=wrap;html=1;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
           <mxGeometry x="100" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-2" source="2yll_2NZHZM8mv4KPFdO-5" target="2yll_2NZHZM8mv4KPFdO-9">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-2" source="2yll_2NZHZM8mv4KPFdO-5" target="2yll_2NZHZM8mv4KPFdO-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-11" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2yll_2NZHZM8mv4KPFdO-10">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-11" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2yll_2NZHZM8mv4KPFdO-10" vertex="1" connectable="0">
           <mxGeometry x="-0.677" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="2yll_2NZHZM8mv4KPFdO-2" source="2yll_2NZHZM8mv4KPFdO-5" target="2yll_2NZHZM8mv4KPFdO-13">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-2" source="2yll_2NZHZM8mv4KPFdO-5" target="2yll_2NZHZM8mv4KPFdO-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2yll_2NZHZM8mv4KPFdO-14">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-15" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="2yll_2NZHZM8mv4KPFdO-14" vertex="1" connectable="0">
           <mxGeometry x="-0.2242" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-5" value="Check if Sea in local DB." style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-2">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-5" value="Check if Sea in local DB." style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
           <mxGeometry x="420" y="140" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-7" value="&lt;div&gt;Local (Browser) DB&lt;/div&gt;&lt;div&gt;for Seas&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-2">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-7" value="&lt;div&gt;Local (Browser) DB&lt;/div&gt;&lt;div&gt;for Seas&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
           <mxGeometry x="20" y="165" width="130" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-9" value="Load data from Local DB for Sea." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-2">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-9" value="Load data from Local DB for Sea." style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
           <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-13" value="call server to get sea information." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-2">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-13" value="call server to get sea information." style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
           <mxGeometry x="660" y="165" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2yll_2NZHZM8mv4KPFdO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2yll_2NZHZM8mv4KPFdO-13" target="2yll_2NZHZM8mv4KPFdO-16">
+        <mxCell id="2yll_2NZHZM8mv4KPFdO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2yll_2NZHZM8mv4KPFdO-13" target="2yll_2NZHZM8mv4KPFdO-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-qUWyXViZkPhN_eJqXY5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-qUWyXViZkPhN_eJqXY5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-800" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qUWyXViZkPhN_eJqXY5-3" value="Move the Map" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qUWyXViZkPhN_eJqXY5-2">
+          <mxGeometry x="-0.2364" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-qUWyXViZkPhN_eJqXY5-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-1060" y="100" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
