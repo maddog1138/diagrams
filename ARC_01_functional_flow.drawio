@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T21:33:27.736Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="_dKjk9w_12phmRlybcPx" version="24.0.5" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-04-22T04:14:04.973Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="l9DNB5N2aItzZkBUyurV" version="24.0.5" type="github" pages="3">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="meepleseas">
     <mxGraphModel dx="3058" dy="722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -379,8 +379,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="9sLPQBVYEF2RoOAMo3u-" name="Display A Sea">
-    <mxGraphModel dx="3262" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="9sLPQBVYEF2RoOAMo3u-" name="DisplaySea">
+    <mxGraphModel dx="2811" dy="1186" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -455,7 +455,7 @@
           <mxGeometry x="710" y="30" width="225" height="120" as="geometry" />
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-2" value="Browser" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-760" y="40" width="860" height="850" as="geometry" />
+          <mxGeometry x="-760" y="40" width="840" height="850" as="geometry" />
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-2" source="2yll_2NZHZM8mv4KPFdO-4" target="2yll_2NZHZM8mv4KPFdO-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -466,7 +466,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-4" value="Need to Display Sea on screen" style="rounded=1;whiteSpace=wrap;html=1;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
-          <mxGeometry x="100" y="60" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="2yll_2NZHZM8mv4KPFdO-2" source="2yll_2NZHZM8mv4KPFdO-5" target="2yll_2NZHZM8mv4KPFdO-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -485,23 +485,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-5" value="Check if Sea in local DB." style="rhombus;whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
-          <mxGeometry x="420" y="140" width="110" height="110" as="geometry" />
+          <mxGeometry x="510" y="240" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-7" value="&lt;div&gt;Local (Browser) DB&lt;/div&gt;&lt;div&gt;for Seas&lt;br&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
-          <mxGeometry x="20" y="165" width="130" height="125" as="geometry" />
+          <mxGeometry x="470" y="610" width="130" height="125" as="geometry" />
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-9" value="Load data from Local DB for Sea." style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
-          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-13" value="call server to get sea information." style="whiteSpace=wrap;html=1;rounded=1;" parent="2yll_2NZHZM8mv4KPFdO-2" vertex="1">
           <mxGeometry x="660" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-qUWyXViZkPhN_eJqXY5-4" value="WorldViewport" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="2yll_2NZHZM8mv4KPFdO-2">
+          <mxGeometry x="50" y="40" width="310" height="400" as="geometry" />
         </mxCell>
         <mxCell id="2yll_2NZHZM8mv4KPFdO-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="2yll_2NZHZM8mv4KPFdO-13" target="2yll_2NZHZM8mv4KPFdO-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-qUWyXViZkPhN_eJqXY5-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-qUWyXViZkPhN_eJqXY5-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-800" y="130" as="targetPoint" />
+            <mxPoint x="-710" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-qUWyXViZkPhN_eJqXY5-3" value="Move the Map" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-qUWyXViZkPhN_eJqXY5-2">
